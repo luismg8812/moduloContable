@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
+import { HttpClientModule}  from '@angular/common/http';
+import { FormsModule }   from '@angular/forms';
 
 const routes: Routes = [
   { path: 'menu', component: MenuComponent },
@@ -16,12 +18,15 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    
     LoginComponent,
     MenuComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    FormsModule,
+    RouterModule.forRoot(routes),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

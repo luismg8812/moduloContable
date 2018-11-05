@@ -1,4 +1,4 @@
-package com.facturacion.contabilidad.controller;
+package com.facturacion.contabilidad;
 
 
 import org.springframework.stereotype.Controller;
