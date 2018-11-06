@@ -11,15 +11,34 @@
       <ul class="navbar-nav">
         <li class="nav-item dropdown" >
           <a class="nav-link dropdown-toggle" href="#" id="menuId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Reportes
+            Informes
           </a>
           <div class="dropdown-menu" aria-labelledby="menuId">
             <a class="dropdown-item"  routerLink="/reporte1" >Reporte 1</a>
             <a class="dropdown-item"  routerLink="/reporte2" >Reporte 2</a>
           </div>
         </li>
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle" href="#" id="menuId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="menuId">
+            <a class="dropdown-item"  routerLink="/costoPromedio" >Costo promedio</a>
+            <a class="dropdown-item"  routerLink="/reporte2" >Reporte 2</a>
+          </div>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/Cartera" >Cartera</a>
+          <a class="nav-link" routerLink="/Documentos" >Documentos</a>
+        </li>      
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle" href="#" id="menuId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cofiguraciones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="menuId">
+            <a class="dropdown-item"  routerLink="/general" >Configuración general</a>
+            <a class="dropdown-item"  routerLink="/usuarios" >Usuarios</a>
+            <a class="dropdown-item"  routerLink="/terceros" >Terceros</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/login" onclick="sessionStorage.clear();">Cerrar Sesion</a>
